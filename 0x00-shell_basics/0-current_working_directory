@@ -1,2 +1,2 @@
 #!/bin/bash
-dir = $(pwd) echo $dir
+current_directory=$(pwd); echo "Absolute path: $(cd "$current_directory" && pwd)"
